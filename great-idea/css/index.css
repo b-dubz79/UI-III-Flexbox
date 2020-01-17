@@ -67,12 +67,17 @@ h1, h2, h3, h4, h5 {
 
 body{
 	margin: 2% auto 5% auto;
-	width: 1400px;
+	width: 800px;
 }
 /*Navigation area with picture*/
+.mainNav{
+	display: flex;
+	justify-content: space-between;
+}
 .navigation a{
-	display: inline;
-	margin: 0 4%;
+	display: flex;
+	justify-content: space-between;
+}
 }
 /*Main header with circular code pic*/
 
@@ -165,4 +170,108 @@ header{
 	width: 100%;
 	text-align: center;
 }
-  
+
+/* This is the services page */
+ .entireNav{
+	 display: flex;
+	 justify-content: space-between;
+	 margin-bottom: 30px;
+ }
+ .nav2{
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 width: 70%;
+ }
+ .services-header-img{
+	 width: 100%;
+	 margin-bottom: 30px;
+ }
+ .services{
+	 display: flex;
+	 flex-direction: column;
+	 padding-bottom: 25px;
+	 border-bottom: 1px solid gray;
+	 margin-bottom: 25px;
+ }
+ .categories{
+	 display: flex;
+	 flex-wrap: wrap;
+	 border-bottom: 2px solid black;
+	 justify-content: space-between;
+	 margin-bottom: 20px;
+	 
+ }
+ .digdes{
+	display: flex;
+	flex-direction: column;
+	width:48%;
+	padding: 15px;
+	border: 1px solid black;
+	background: lightgray;
+	margin-bottom: 20px;
+ }
+ .uxui{
+	display: flex;
+	flex-direction: column;
+	width:48%;
+	padding: 15px;
+	border: 1px solid black;
+	background: lightgray;
+	margin-bottom: 20px;
+ }
+ .digmark{
+	display: flex;
+	flex-direction: column;
+	width:48%;
+	padding: 15px;
+	border: 1px solid black;
+	background: lightgray;
+	margin-bottom: 20px;
+ }
+.webdev{
+	display: flex;
+	flex-direction: column;
+	width:48%;
+	padding: 15px;
+	border: 1px solid black;
+	background: lightgray;
+	margin-bottom: 20px;
+}
+.ios{
+	display: flex;
+	flex-direction: column;
+	width:48%;
+	padding: 15px;
+	border: 1px solid black;
+	background: lightgray;
+	margin-bottom: 20px;
+}
+.anddev{
+	display: flex;
+	flex-direction: column;
+	width:48%;
+	padding: 15px;
+	border: 1px solid black;
+	background: lightgray;
+	margin-bottom: 20px;
+}
+ button{
+	 width: 120px;
+	 margin-top: 15px;
+ }
+ /*Facts about services*/
+.finalSect{
+	display: flex;
+	justify-content: space-between;
+}
+.facts{
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	justify-content: space-evenly;
+}
+
+
+ 
+ 
