@@ -65,104 +65,104 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.container {
-	max-width: 1400px;
-	margin: 0 auto;
-  }
-  
-  /* Navigation */
-  .main-header .navbar {
-	padding: 10px;
-  }
-  
-  .entireNav{
-	  display:flex;
-	  justify-content: space-around;
-  }
-  
-  .main-header .navbar ul li {
+body{
+	margin: 2% auto 5% auto;
+	width: 1400px;
+}
+/*Navigation area with picture*/
+.navigation a{
 	display: inline;
-	padding: 0 20px;
-  }
-  
-  .main-header .navbar ul li a {
-	color: #ccc;
-	text-decoration: none;
-	padding: 5px;
-	font-size: 20px;
-  }
-  
-  .logo {
-	margin-left: 35%;
-  }
-  
-  /* Hero section */
-  .main-header .caption {
-	display: inline;
-	text-align: center;
-  }
-  
-  .main-header .caption h1 {
-	font-size: 75px;
+	margin: 0 4%;
+}
+/*Main header with circular code pic*/
+
+header{
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
+}
+.entire{
 	display: flex;
-	padding: 5px;
-	margin: 10% 0 2% 10%;
-  }
-  
-  .main-header .caption a {
-	padding: 0 20px 0 20px;
-	border: #333 1px solid;
-	color: #333;
-	text-decoration: none;
-	margin: 0 0 0 16%;
-	font-size: 20px;
-  }
-  
-  .main-header .header-img {
-	margin: -25% 0 8% 70%;
-  }
-  
-  /* Content section */
-  
-  .content-section .content-box-top {
-	display: inline-block;
-	max-width: 500px;
-	margin: 2% 0 2% 8%;
-	padding: 20px;
-  }
-  
-  .content-section .content-box h1 {
-	font-size: 30px;
-  }
-  
-  .content-section .content-box p {
-	font-size: 18px;
-  }
-  
-  .content-section .middle-img {
-	display: block;
-	margin: 0 auto;
-	width: 100%;
-  }
-  
-  .content-section .content-box-bottom {
-	display: inline-block;
-	max-width: 300px;
-	margin: 2% 0 2% 8%;
-	padding: 20px;
-  }
-  
-  /* Footer */
-  footer h1 {
-	margin-top: 2%;
-  }
-  
-  /* Margin-bottom */
-  footer p {
-	margin-bottom: 2%;
-  }
-  
-  footer .copyright {
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.header-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	width: 600px;
+	}
+.header-left h1{
 	text-align: center;
-  }
+}
+
+}
+.started{
+	font-size: 20px;
+	border: 2px solid gray;
+	width: 200px;
+	display: inline-block;
+	height: 30px;
+	padding: 3px;
+	
+	}
+/*Info section 1*/
+.infoTop{
+	display:flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+.featsect{
+	display:flex;
+	flex-direction:column;
+	width: 46%;
+	border: 
+}
+		
+
+.aboutsect{
+	display: flex;
+	flex-direction: column;
+	width: 46%;
+	
+	
+}
+/*Wide code pic*/
+.middle-img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+/*Info section 2*/
+.infoBottom{
+	display: flex;
+	justify-content: space-between;
+	
+	margin-bottom: 30px;
+}
+.servsect{
+	display: flex;
+	flex-direction: column;
+	width: 32%;
+	height: 120px;
+	}
+.prodsect{
+	display: flex;
+	flex-direction: column;
+	width: 32%;
+}
+.vissect{
+	display: flex;
+	flex-direction: column;
+	width: 32%;
+}
+/*Address section didn't require CSS*/
+/*Copyright footer*/
+.foot{
+	width: 100%;
+	text-align: center;
+}
   
